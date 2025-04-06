@@ -16,7 +16,7 @@ import androidx.navigation.NavHostController
 import com.example.navigation.viewmodel.MyViewmodel
 
 @Composable
-fun Page_3Ui(modifier: Modifier = Modifier, navController: NavHostController, viewModel: MyViewmodel) {
+fun Page_3Ui(navController: NavHostController, viewModel: MyViewmodel) {
     Column(
         modifier = Modifier.fillMaxSize().background(Color.White),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -35,6 +35,14 @@ fun Page_3Ui(modifier: Modifier = Modifier, navController: NavHostController, vi
             colors = ButtonDefaults.buttonColors(Color.Black)
         ) {
             Text(text = "Home", color = Color.White)
+        }
+        Button(
+            onClick = {
+                navController.navigate("login")
+            },
+            colors = ButtonDefaults.buttonColors(Color.Black)
+        ) {
+            Text(text = "Login", color = Color.White)
         }
     }
 }

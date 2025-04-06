@@ -16,7 +16,7 @@ import androidx.navigation.NavHostController
 import com.example.navigation.viewmodel.MyViewmodel
 
 @Composable
-fun NextPageUI(modifier: Modifier = Modifier, navController: NavHostController, viewModel: MyViewmodel) {
+fun NextPageUI(navController: NavHostController, viewModel: MyViewmodel) {
 
     Column(
         modifier = Modifier

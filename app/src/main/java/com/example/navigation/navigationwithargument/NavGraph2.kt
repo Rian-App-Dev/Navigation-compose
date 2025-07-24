@@ -1,4 +1,4 @@
-package com.example.navigation.navigation
+package com.example.navigation.navigationwithargument
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavType
@@ -7,8 +7,8 @@ import androidx.navigation.compose.composable
 
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.navigation.screen.screen2.HomeScreen
-import com.example.navigation.screen.screen2.LoginScreen
+import com.example.navigation.navigationwithargument.screen2.HomeScreen
+import com.example.navigation.navigationwithargument.screen2.LoginScreen
 
 @Composable
 fun Nav2() {

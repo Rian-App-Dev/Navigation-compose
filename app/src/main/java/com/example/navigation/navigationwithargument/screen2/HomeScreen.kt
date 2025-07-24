@@ -1,4 +1,4 @@
-package com.example.navigation.screen.screen2
+package com.example.navigation.navigationwithargument.screen2
 
 
 import androidx.compose.foundation.layout.Box

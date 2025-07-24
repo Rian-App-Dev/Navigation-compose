@@ -1,7 +1,6 @@
 package com.example.navigation.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -9,11 +8,11 @@ import androidx.navigation.compose.composable
 
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.navigation.screen.HomeUi
-import com.example.navigation.screen.NextPageUI
-import com.example.navigation.screen.Page_3Ui
-import com.example.navigation.screen.screen2.HomeScreen
-import com.example.navigation.screen.screen2.LoginScreen
+import com.example.navigation.navigation.screen.HomeUi
+import com.example.navigation.navigation.screen.NextPageUI
+import com.example.navigation.navigation.screen.Page_3Ui
+import com.example.navigation.navigationwithargument.screen2.HomeScreen
+import com.example.navigation.navigationwithargument.screen2.LoginScreen
 import com.example.navigation.viewmodel.MyViewmodel
 
 @Composable

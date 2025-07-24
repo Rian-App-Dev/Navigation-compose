@@ -1,4 +1,4 @@
-package com.example.navigation.screen
+package com.example.navigation.navigation.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
